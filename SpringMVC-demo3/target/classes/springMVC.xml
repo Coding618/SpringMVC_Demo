@@ -35,6 +35,8 @@
 
     <!--配置SpringMVC view-controller-->
     <mvc:view-controller path="/" view-name="index"></mvc:view-controller>
+    <mvc:view-controller path="/test_view" view-name="test_view"></mvc:view-controller>
+    <mvc:view-controller path="/test_rest" view-name="test_rest"></mvc:view-controller>
     <!--设置view-controller之后，必须开启annotation驱动才能使用之前的注解-->
     <mvc:annotation-driven></mvc:annotation-driven>
 
